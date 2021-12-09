@@ -4,6 +4,8 @@ function App() {
 
   const url = `https://api.artic.edu/api/v1/artworks`;
 
+  // This is comment
+
   const [currentPage, setCurrentPage] = useState(1);
   const [arts, setArts] = useState([]);
   const [artsError, setArtsError] = useState('');
